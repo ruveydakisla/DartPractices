@@ -31,4 +31,14 @@ void main(List<String> args) {
       print('Üzgünüz...');
     else if (customer[i] >= 35) print('Kredi alabilirsiniz');
   }
+  List<dynamic> newlist = [
+    1,
+    'a',
+    false,
+    3.0,
+    'asd'
+  ]; //Farklı tiplerde elemanları tutabilir.
+  for (var item in newlist) { // Bütün liste elemanlarını dolaşır.
+    print(item);
+  }
 }
